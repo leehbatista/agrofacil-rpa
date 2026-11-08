@@ -1,0 +1,19 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Arquivos temporários
+.vscode/
+.idea/
+outputs/
