@@ -91,7 +91,7 @@ agrofacil-rpa/
 ### 1. Clonar o repositório
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/leehbatista/agrofacil-rpa.git
 cd agrofacil-rpa
 ```
 
@@ -134,7 +134,7 @@ São testados:
 - Regras de análise climática.
 - Tratamento de previsão vazia.
 
-**Resultado atual: 13 testes aprovados.**
+**Resultado atual: 16 testes aprovados.**
 
 ## Integração e arquivos gerados
 
