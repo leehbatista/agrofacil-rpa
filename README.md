@@ -1,11 +1,10 @@
-
 # AgroFácil RPA
 
 ## Sobre o projeto
 
 O AgroFácil é uma solução desenvolvida para auxiliar pequenos produtores rurais no acompanhamento das condições climáticas e na tomada de decisões relacionadas ao cuidado com suas plantações.
 
-O projeto utiliza automação em Python para consultar previsões meteorológicas, analisar condições climáticas e gerar alertas e recomendações de acordo com regras previamente definidas.
+O projeto utiliza automação em Python para consultar previsões meteorológicas, analisar condições climáticas e gerar alertas e recomendações de acordo com regras previamente definidas. Os resultados são consumidos por um painel web que apresenta as informações de forma organizada.
 
 ## Problema
 
@@ -27,7 +26,8 @@ Automatizar a consulta e a análise de dados meteorológicos, oferecendo informa
 - Geração de alertas e recomendações.
 - Registro de logs para auditoria e acompanhamento da execução.
 - Exportação dos resultados em arquivo JSON.
-- Tratamento de erros, como falhas na API e cadastros inválidos.
+- Painel web que consome o JSON e exibe alertas, recomendações e previsão por produtor.
+- Tratamento de erros, como falhas na API, cadastros inválidos e arquivo JSON ausente ou corrompido.
 
 ## Tecnologias utilizadas
 
@@ -38,6 +38,7 @@ Automatizar a consulta e a análise de dados meteorológicos, oferecendo informa
 - JSON
 - Logging
 - Unittest
+- HTML e CSS (painel)
 
 ## Como funciona
 
@@ -48,6 +49,11 @@ Automatizar a consulta e a análise de dados meteorológicos, oferecendo informa
 5. O sistema gera alertas e recomendações.
 6. Os resultados são armazenados em um arquivo JSON.
 7. A execução é registrada em arquivo de log.
+8. O painel (`src/painel.py`) lê o JSON, valida o formato e gera uma página web com os resultados.
+
+## Fluxo do processo (BPMN)
+
+![Fluxo BPMN do AgroFácil RPA](assets/fluxo_bpmn.png)
 
 ## Regras de negócio
 
@@ -65,11 +71,12 @@ As regras são ilustrativas e devem ser validadas por especialistas, considerand
 ```text
 agrofacil-rpa/
 ├── src/
-│   ├── _init_.py
+│   ├── __init__.py
 │   ├── main.py
 │   ├── clima.py
 │   ├── regras.py
 │   ├── processador.py
+│   ├── painel.py
 │   └── logger_config.py
 ├── tests/
 │   ├── test_clima.py
@@ -80,7 +87,11 @@ agrofacil-rpa/
 ├── logs/
 │   └── agrofacil.log
 ├── outputs/
-│   └── analise_climatica.json
+│   ├── analise_climatica.json
+│   └── painel.html
+├── assets/
+│   ├── fluxo_bpmn.png
+│   └── painel.png
 ├── docs/
 │   ├── fluxo_bpmn.md
 │   ├── PDD.md
@@ -112,13 +123,23 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Executar o sistema
+### 4. Executar a automação
 
 ```bash
 python3 -m src.main
 ```
 
-### 5. Executar os testes
+Gera o arquivo `outputs/analise_climatica.json` e o log `logs/agrofacil.log`.
+
+### 5. Gerar e abrir o painel
+
+```bash
+python3 -m src.painel
+```
+
+Lê o arquivo `outputs/analise_climatica.json`, gera `outputs/painel.html` e abre o painel no navegador. Execute o passo 4 antes, para que o JSON exista.
+
+### 6. Executar os testes
 
 ```bash
 python3 -m unittest discover -s tests -v
@@ -132,30 +153,40 @@ São testados:
 
 - Consulta meteorológica bem-sucedida.
 - Timeout e falha de conexão com a API.
+- Resposta incompleta ou inconsistente da API.
 - Validação de produtores.
 - Identificação de coordenadas inválidas.
 - Identificação de IDs duplicados.
+- Identificação de campos obrigatórios vazios.
+- Arquivo de cadastro inexistente.
 - Regras de análise climática.
 - Tratamento de previsão vazia.
 
 **Resultado atual: 16 testes aprovados.**
 
-## Integração e arquivos gerados
+## Integração com o MVP e arquivos gerados
 
 O AgroFácil utiliza a API Open-Meteo para obter dados meteorológicos.
 
-Os resultados das análises são exportados em formato JSON, enquanto os registros de execução e erros são armazenados em arquivo de log.
+Os resultados das análises são exportados em formato JSON (`outputs/analise_climatica.json`) e **consumidos pelo componente `src/painel.py`**, que gera o painel web `outputs/painel.html` com os alertas e as recomendações de cada produtor. Os registros de execução e erros são armazenados em `logs/agrofacil.log`.
+
+![Painel AgroFácil](assets/painel.png)
 
 ## Segurança e dados
 
-O projeto utiliza dados fictícios de produtores para fins acadêmicos e de demonstração. As informações são processadas localmente e não incluem dados pessoais sensíveis.
+O projeto utiliza dados fictícios de produtores para fins acadêmicos e de demonstração. As informações são processadas localmente, sem envio a serviços externos além da consulta de previsão por coordenadas, e não incluem dados pessoais sensíveis. Os logs registram apenas o ID dos produtores.
+
+## Demonstração
+
+Vídeo: https://youtu.be/AwQWI1QoQsY?si=cf61UkCz-StKLQSi
 
 ## Projeto acadêmico
 
 Desenvolvido como parte da Global Solution 2026.2 — CitizenTech | FIAP
 
-**Integrantes:** 
-Leticia Fontana Baptista – rm550289
-Julia Palomari – rm551910
-Vinicius Sobreira Borges - rm97767
-Julia Ortiz – rm550204
+**Integrantes:**
+
+- Leticia Fontana Baptista – RM550289
+- Julia Palomari – RM551910
+- Vinicius Sobreira Borges – RM97767
+- Julia Ortiz – RM550204
