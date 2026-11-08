@@ -65,6 +65,7 @@ As regras são ilustrativas e devem ser validadas por especialistas, considerand
 ```text
 agrofacil-rpa/
 ├── src/
+│   ├── _init_.py
 │   ├── main.py
 │   ├── clima.py
 │   ├── regras.py
@@ -81,7 +82,10 @@ agrofacil-rpa/
 ├── outputs/
 │   └── analise_climatica.json
 ├── docs/
-├── assets/
+│   ├── fluxo_bpmn.md
+│   ├── PDD.md
+│   └── relatorio_final.md
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
