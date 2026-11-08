@@ -128,7 +128,7 @@ Os testes contemplam:
 - Consulta meteorológica bem-sucedida.
 - Timeout e falha de conexão.
 
-**Resultado registrado na última execução: 13 testes aprovados.**
+**Resultado registrado na última execução: 16 testes aprovados.**
 
 ## 12. Segurança e LGPD
 
