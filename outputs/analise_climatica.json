@@ -1,0 +1,212 @@
+{
+    "data_execucao": "2026-11-08T18:42:07-03:00",
+    "total_produtores": 5,
+    "total_validos": 5,
+    "total_processados": 5,
+    "total_invalidos": 0,
+    "total_falhas": 0,
+    "produtores_invalidos": [],
+    "falhas": [],
+    "resultados": [
+        {
+            "id": "P001",
+            "nome": "Joao Silva",
+            "cultura": "tomate",
+            "clima": {
+                "temperatura_atual": 15.0,
+                "precipitacao_atual": 0.0,
+                "previsao": [
+                    {
+                        "data": "2026-11-08",
+                        "temperatura_minima": 14.0,
+                        "temperatura_maxima": 19.4,
+                        "precipitacao": 8.3
+                    },
+                    {
+                        "data": "2026-11-09",
+                        "temperatura_minima": 12.9,
+                        "temperatura_maxima": 17.2,
+                        "precipitacao": 0.8
+                    },
+                    {
+                        "data": "2026-11-10",
+                        "temperatura_minima": 12.7,
+                        "temperatura_maxima": 20.2,
+                        "precipitacao": 1.0
+                    }
+                ]
+            },
+            "analise": {
+                "alertas": [
+                    "Nenhum risco identificado"
+                ],
+                "recomendacoes": [
+                    "Manter o monitoramento das condições climáticas."
+                ],
+                "chuva_acumulada_3_dias": 10.1,
+                "temperatura_minima_prevista": 12.7,
+                "temperatura_maxima_prevista": 20.2
+            }
+        },
+        {
+            "id": "P002",
+            "nome": "Maria Souza",
+            "cultura": "milho",
+            "clima": {
+                "temperatura_atual": 19.8,
+                "precipitacao_atual": 0.2,
+                "previsao": [
+                    {
+                        "data": "2026-11-08",
+                        "temperatura_minima": 19.3,
+                        "temperatura_maxima": 26.3,
+                        "precipitacao": 9.9
+                    },
+                    {
+                        "data": "2026-11-09",
+                        "temperatura_minima": 18.9,
+                        "temperatura_maxima": 21.7,
+                        "precipitacao": 3.0
+                    },
+                    {
+                        "data": "2026-11-10",
+                        "temperatura_minima": 18.8,
+                        "temperatura_maxima": 23.3,
+                        "precipitacao": 0.2
+                    }
+                ]
+            },
+            "analise": {
+                "alertas": [
+                    "Nenhum risco identificado"
+                ],
+                "recomendacoes": [
+                    "Manter o monitoramento das condições climáticas."
+                ],
+                "chuva_acumulada_3_dias": 13.1,
+                "temperatura_minima_prevista": 18.8,
+                "temperatura_maxima_prevista": 26.3
+            }
+        },
+        {
+            "id": "P003",
+            "nome": "Carlos Lima",
+            "cultura": "soja",
+            "clima": {
+                "temperatura_atual": 22.8,
+                "precipitacao_atual": 0.0,
+                "previsao": [
+                    {
+                        "data": "2026-11-08",
+                        "temperatura_minima": 18.9,
+                        "temperatura_maxima": 26.2,
+                        "precipitacao": 11.6
+                    },
+                    {
+                        "data": "2026-11-09",
+                        "temperatura_minima": 20.0,
+                        "temperatura_maxima": 27.9,
+                        "precipitacao": 5.1
+                    },
+                    {
+                        "data": "2026-11-10",
+                        "temperatura_minima": 19.4,
+                        "temperatura_maxima": 26.6,
+                        "precipitacao": 11.5
+                    }
+                ]
+            },
+            "analise": {
+                "alertas": [
+                    "Nenhum risco identificado"
+                ],
+                "recomendacoes": [
+                    "Manter o monitoramento das condições climáticas."
+                ],
+                "chuva_acumulada_3_dias": 28.2,
+                "temperatura_minima_prevista": 18.9,
+                "temperatura_maxima_prevista": 27.9
+            }
+        },
+        {
+            "id": "P004",
+            "nome": "Ana Costa",
+            "cultura": "cafe",
+            "clima": {
+                "temperatura_atual": 20.9,
+                "precipitacao_atual": 0.1,
+                "previsao": [
+                    {
+                        "data": "2026-11-08",
+                        "temperatura_minima": 16.2,
+                        "temperatura_maxima": 26.6,
+                        "precipitacao": 6.3
+                    },
+                    {
+                        "data": "2026-11-09",
+                        "temperatura_minima": 15.8,
+                        "temperatura_maxima": 20.9,
+                        "precipitacao": 4.8
+                    },
+                    {
+                        "data": "2026-11-10",
+                        "temperatura_minima": 14.6,
+                        "temperatura_maxima": 18.1,
+                        "precipitacao": 14.4
+                    }
+                ]
+            },
+            "analise": {
+                "alertas": [
+                    "Nenhum risco identificado"
+                ],
+                "recomendacoes": [
+                    "Manter o monitoramento das condições climáticas."
+                ],
+                "chuva_acumulada_3_dias": 25.5,
+                "temperatura_minima_prevista": 14.6,
+                "temperatura_maxima_prevista": 26.6
+            }
+        },
+        {
+            "id": "P005",
+            "nome": "Pedro Santos",
+            "cultura": "alface",
+            "clima": {
+                "temperatura_atual": 12.4,
+                "precipitacao_atual": 0.0,
+                "previsao": [
+                    {
+                        "data": "2026-11-08",
+                        "temperatura_minima": 10.8,
+                        "temperatura_maxima": 16.6,
+                        "precipitacao": 4.8
+                    },
+                    {
+                        "data": "2026-11-09",
+                        "temperatura_minima": 10.4,
+                        "temperatura_maxima": 17.1,
+                        "precipitacao": 1.6
+                    },
+                    {
+                        "data": "2026-11-10",
+                        "temperatura_minima": 10.5,
+                        "temperatura_maxima": 17.3,
+                        "precipitacao": 1.1
+                    }
+                ]
+            },
+            "analise": {
+                "alertas": [
+                    "Nenhum risco identificado"
+                ],
+                "recomendacoes": [
+                    "Manter o monitoramento das condições climáticas."
+                ],
+                "chuva_acumulada_3_dias": 7.5,
+                "temperatura_minima_prevista": 10.4,
+                "temperatura_maxima_prevista": 17.3
+            }
+        }
+    ]
+}

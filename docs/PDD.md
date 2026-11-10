@@ -115,13 +115,13 @@ O sistema gera:
 
 ### 11. Testes
 
-O projeto possui 13 testes automatizados, distribuídos entre:
+O projeto possui 16 testes automatizados, distribuídos entre:
 
 - Testes das regras de negócio.
 - Testes de validação dos cadastros.
 - Testes de consulta à API e tratamento de falhas.
 
-Na última execução, os 13 testes foram aprovados.
+Na última execução, os 16 testes foram aprovados.
 
 ### 12. Considerações finais
 

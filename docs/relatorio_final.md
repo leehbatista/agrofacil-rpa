@@ -114,7 +114,7 @@ Os resultados são exportados em JSON, permitindo que outras aplicações possam
 
 ## 11. Testes realizados
 
-Foram implementados 13 testes automatizados utilizando Unittest.
+Foram implementados 16 testes automatizados utilizando Unittest.
 
 Os testes contemplam:
 - Regras de decisão climática.

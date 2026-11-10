@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel AgroFácil</title>
+<style>
+  body { font-family: Arial, sans-serif; background:#f3f6f1; color:#1d2b1d; margin:0; }
+  header { background:#2e6b34; color:#fff; padding:20px 28px; }
+  header p { margin:4px 0 0; }
+  main { padding:24px; display:grid; gap:18px;
+          grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); }
+  .card { background:#fff; border-radius:10px; padding:18px;
+           box-shadow:0 1px 4px rgba(0,0,0,.15); }
+  .card h2 { margin:0 0 6px; font-size:20px; }
+  .card small { display:block; color:#4a5a4a; font-size:13px; font-weight:normal; }
+  .alerta { display:inline-block; padding:5px 10px; border-radius:14px;
+             margin:2px 4px 2px 0; font-weight:bold; font-size:14px; }
+  .ok { background:#d8f0d8; color:#14501a; }
+  .atencao { background:#ffe9b8; color:#6b4300; }
+  .critico { background:#ffd2d2; color:#7a0f0f; }
+  table { width:100%; border-collapse:collapse; margin-top:12px; font-size:14px; }
+  caption { text-align:left; font-weight:bold; padding-bottom:4px; }
+  th, td { border-bottom:1px solid #dde5dd; padding:5px; text-align:left; }
+  .aviso { background:#fff3cd; padding:10px 28px; margin:0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Painel AgroFácil</h1>
+  <p>Dados gerados pela automação em 2026-11-08T18:42:07-03:00
+     · Processados: 5
+     · Inválidos: 0
+     · Falhas: 0</p>
+</header>
+
+<main>
+    <article class="card">
+      <h2>Joao Silva
+        <small>P001 · tomate</small></h2>
+      <p class="temp">Temperatura atual: <strong>15.0 °C</strong></p>
+      <div><span class="alerta ok">Nenhum risco identificado</span></div>
+      <h3>Recomendações</h3>
+      <ul><li>Manter o monitoramento das condições climáticas.</li></ul>
+      <table>
+        <caption>Previsão dos próximos dias</caption>
+        <thead><tr><th>Data</th><th>Mínima</th><th>Máxima</th><th>Chuva</th></tr></thead>
+        <tbody><tr><td>2026-11-08</td><td>14.0 °C</td><td>19.4 °C</td><td>8.3 mm</td></tr><tr><td>2026-11-09</td><td>12.9 °C</td><td>17.2 °C</td><td>0.8 mm</td></tr><tr><td>2026-11-10</td><td>12.7 °C</td><td>20.2 °C</td><td>1.0 mm</td></tr></tbody>
+      </table>
+    </article>
+    <article class="card">
+      <h2>Maria Souza
+        <small>P002 · milho</small></h2>
+      <p class="temp">Temperatura atual: <strong>19.8 °C</strong></p>
+      <div><span class="alerta ok">Nenhum risco identificado</span></div>
+      <h3>Recomendações</h3>
+      <ul><li>Manter o monitoramento das condições climáticas.</li></ul>
+      <table>
+        <caption>Previsão dos próximos dias</caption>
+        <thead><tr><th>Data</th><th>Mínima</th><th>Máxima</th><th>Chuva</th></tr></thead>
+        <tbody><tr><td>2026-11-08</td><td>19.3 °C</td><td>26.3 °C</td><td>9.9 mm</td></tr><tr><td>2026-11-09</td><td>18.9 °C</td><td>21.7 °C</td><td>3.0 mm</td></tr><tr><td>2026-11-10</td><td>18.8 °C</td><td>23.3 °C</td><td>0.2 mm</td></tr></tbody>
+      </table>
+    </article>
+    <article class="card">
+      <h2>Carlos Lima
+        <small>P003 · soja</small></h2>
+      <p class="temp">Temperatura atual: <strong>22.8 °C</strong></p>
+      <div><span class="alerta ok">Nenhum risco identificado</span></div>
+      <h3>Recomendações</h3>
+      <ul><li>Manter o monitoramento das condições climáticas.</li></ul>
+      <table>
+        <caption>Previsão dos próximos dias</caption>
+        <thead><tr><th>Data</th><th>Mínima</th><th>Máxima</th><th>Chuva</th></tr></thead>
+        <tbody><tr><td>2026-11-08</td><td>18.9 °C</td><td>26.2 °C</td><td>11.6 mm</td></tr><tr><td>2026-11-09</td><td>20.0 °C</td><td>27.9 °C</td><td>5.1 mm</td></tr><tr><td>2026-11-10</td><td>19.4 °C</td><td>26.6 °C</td><td>11.5 mm</td></tr></tbody>
+      </table>
+    </article>
+    <article class="card">
+      <h2>Ana Costa
+        <small>P004 · cafe</small></h2>
+      <p class="temp">Temperatura atual: <strong>20.9 °C</strong></p>
+      <div><span class="alerta ok">Nenhum risco identificado</span></div>
+      <h3>Recomendações</h3>
+      <ul><li>Manter o monitoramento das condições climáticas.</li></ul>
+      <table>
+        <caption>Previsão dos próximos dias</caption>
+        <thead><tr><th>Data</th><th>Mínima</th><th>Máxima</th><th>Chuva</th></tr></thead>
+        <tbody><tr><td>2026-11-08</td><td>16.2 °C</td><td>26.6 °C</td><td>6.3 mm</td></tr><tr><td>2026-11-09</td><td>15.8 °C</td><td>20.9 °C</td><td>4.8 mm</td></tr><tr><td>2026-11-10</td><td>14.6 °C</td><td>18.1 °C</td><td>14.4 mm</td></tr></tbody>
+      </table>
+    </article>
+    <article class="card">
+      <h2>Pedro Santos
+        <small>P005 · alface</small></h2>
+      <p class="temp">Temperatura atual: <strong>12.4 °C</strong></p>
+      <div><span class="alerta ok">Nenhum risco identificado</span></div>
+      <h3>Recomendações</h3>
+      <ul><li>Manter o monitoramento das condições climáticas.</li></ul>
+      <table>
+        <caption>Previsão dos próximos dias</caption>
+        <thead><tr><th>Data</th><th>Mínima</th><th>Máxima</th><th>Chuva</th></tr></thead>
+        <tbody><tr><td>2026-11-08</td><td>10.8 °C</td><td>16.6 °C</td><td>4.8 mm</td></tr><tr><td>2026-11-09</td><td>10.4 °C</td><td>17.1 °C</td><td>1.6 mm</td></tr><tr><td>2026-11-10</td><td>10.5 °C</td><td>17.3 °C</td><td>1.1 mm</td></tr></tbody>
+      </table>
+    </article></main>
+</body>
+</html>

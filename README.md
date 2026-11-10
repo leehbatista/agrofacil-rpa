@@ -189,4 +189,8 @@ Desenvolvido como parte da Global Solution 2026.2 — CitizenTech | FIAP
 - Leticia Fontana Baptista – RM550289
 - Julia Palomari – RM551910
 - Vinicius Sobreira Borges – RM97767
+<<<<<<< HEAD
 - Julia Ortiz – RM550204
+=======
+- Julia Ortiz – RM550204
+>>>>>>> 79ccf6c (gs)
