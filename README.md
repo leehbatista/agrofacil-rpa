@@ -178,7 +178,7 @@ O projeto utiliza dados fictícios de produtores para fins acadêmicos e de demo
 
 ## Demonstração
 
-Vídeo: [https://youtu.be/AwQWI1QoQsY?si=cf61UkCz-StKLQSi](https://youtu.be/Zpi-7k2LBhU?si=tvBxFnr0IyQq80q_)
+Vídeo: https://youtu.be/Zpi-7k2LBhU?si=tvBxFnr0IyQq80q_
 
 ## Projeto acadêmico
 
