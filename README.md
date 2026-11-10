@@ -178,7 +178,11 @@ O projeto utiliza dados fictícios de produtores para fins acadêmicos e de demo
 
 ## Demonstração
 
+<<<<<<< HEAD
 Vídeo: https://youtu.be/Zpi-7k2LBhU?si=tvBxFnr0IyQq80q_
+=======
+Vídeo: https://youtu.be/AwQWI1QoQsY?si=cf61UkCz-StKLQSi
+>>>>>>> ab06f5d (Projeto Final)
 
 ## Projeto acadêmico
 
@@ -190,3 +194,4 @@ Desenvolvido como parte da Global Solution 2026.2 — CitizenTech | FIAP
 - Julia Palomari – RM551910
 - Vinicius Sobreira Borges – RM97767
 - Julia Ortiz – RM550204
+>>>>>>> 79ccf6c (gs)

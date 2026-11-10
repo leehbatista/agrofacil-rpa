@@ -70,3 +70,93 @@
 2026-11-08 18:42:07,285 | INFO | Execução finalizada. Processados: 5 | Inválidos: 0 | Falhas: 0
 2026-11-08 18:42:49,220 | INFO | === PAINEL: início da leitura do JSON da automação ===
 2026-11-08 18:42:49,220 | INFO | Painel gerado com 5 produtores a partir do JSON.
+2026-11-09 21:52:51,285 | INFO | === INÍCIO DA EXECUÇÃO DO AGROFÁCIL ===
+2026-11-09 21:52:51,285 | INFO | Cadastro processado: 5 válidos e 0 inválidos.
+2026-11-09 21:52:51,285 | INFO | Cadastros carregados: 5 válidos e 0 inválidos.
+2026-11-09 21:52:52,431 | INFO | Produtor P001 processado com sucesso.
+2026-11-09 21:52:53,284 | INFO | Produtor P002 processado com sucesso.
+2026-11-09 21:52:54,137 | INFO | Produtor P003 processado com sucesso.
+2026-11-09 21:52:55,023 | INFO | Produtor P004 processado com sucesso.
+2026-11-09 21:52:55,879 | INFO | Produtor P005 processado com sucesso.
+2026-11-09 21:52:55,882 | INFO | Arquivo JSON salvo com sucesso.
+2026-11-09 21:52:55,882 | INFO | Execução finalizada. Processados: 5 | Inválidos: 0 | Falhas: 0
+2026-11-09 21:54:05,500 | INFO | === INÍCIO DA EXECUÇÃO DO AGROFÁCIL ===
+2026-11-09 21:54:05,501 | INFO | Cadastro processado: 5 válidos e 0 inválidos.
+2026-11-09 21:54:05,501 | INFO | Cadastros carregados: 5 válidos e 0 inválidos.
+2026-11-09 21:54:06,369 | INFO | Produtor P001 processado com sucesso.
+2026-11-09 21:54:07,224 | INFO | Produtor P002 processado com sucesso.
+2026-11-09 21:54:08,156 | INFO | Produtor P003 processado com sucesso.
+2026-11-09 21:54:09,056 | INFO | Produtor P004 processado com sucesso.
+2026-11-09 21:54:09,914 | INFO | Produtor P005 processado com sucesso.
+2026-11-09 21:54:09,915 | INFO | Arquivo JSON salvo com sucesso.
+2026-11-09 21:54:09,915 | INFO | Execução finalizada. Processados: 5 | Inválidos: 0 | Falhas: 0
+2026-11-09 21:54:30,706 | INFO | === PAINEL: início da leitura do JSON da automação ===
+2026-11-09 21:54:30,706 | INFO | Painel gerado com 5 produtores a partir do JSON.
+2026-11-09 21:58:16,188 | INFO | === INÍCIO DA EXECUÇÃO DO AGROFÁCIL ===
+2026-11-09 21:58:16,188 | INFO | Cadastro processado: 5 válidos e 1 inválidos.
+2026-11-09 21:58:16,188 | INFO | Cadastros carregados: 5 válidos e 1 inválidos.
+2026-11-09 21:58:16,188 | WARNING | Cadastro inválido. ID: P006 | Erro: Latitude inválida.
+2026-11-09 21:58:17,208 | INFO | Produtor P001 processado com sucesso.
+2026-11-09 21:58:18,177 | INFO | Produtor P002 processado com sucesso.
+2026-11-09 21:58:19,067 | INFO | Produtor P003 processado com sucesso.
+2026-11-09 21:58:19,980 | INFO | Produtor P004 processado com sucesso.
+2026-11-09 21:58:20,886 | INFO | Produtor P005 processado com sucesso.
+2026-11-09 21:58:20,889 | INFO | Arquivo JSON salvo com sucesso.
+2026-11-09 21:58:20,889 | INFO | Execução finalizada. Processados: 5 | Inválidos: 1 | Falhas: 0
+2026-11-09 22:01:14,094 | INFO | === INÍCIO DA EXECUÇÃO DO AGROFÁCIL ===
+2026-11-09 22:01:14,094 | INFO | Cadastro processado: 5 válidos e 1 inválidos.
+2026-11-09 22:01:14,094 | INFO | Cadastros carregados: 5 válidos e 1 inválidos.
+2026-11-09 22:01:14,094 | WARNING | Cadastro inválido. ID: P006 | Erro: Latitude inválida.
+2026-11-09 22:01:15,117 | INFO | Produtor P001 processado com sucesso.
+2026-11-09 22:01:16,002 | INFO | Produtor P002 processado com sucesso.
+2026-11-09 22:01:16,911 | INFO | Produtor P003 processado com sucesso.
+2026-11-09 22:01:17,789 | INFO | Produtor P004 processado com sucesso.
+2026-11-09 22:01:18,706 | INFO | Produtor P005 processado com sucesso.
+2026-11-09 22:01:18,709 | INFO | Arquivo JSON salvo com sucesso.
+2026-11-09 22:01:18,709 | INFO | Execução finalizada. Processados: 5 | Inválidos: 1 | Falhas: 0
+2026-11-09 22:02:22,033 | INFO | === INÍCIO DA EXECUÇÃO DO AGROFÁCIL ===
+2026-11-09 22:02:22,034 | INFO | Cadastro processado: 5 válidos e 1 inválidos.
+2026-11-09 22:02:22,034 | INFO | Cadastros carregados: 5 válidos e 1 inválidos.
+2026-11-09 22:02:22,034 | WARNING | Cadastro inválido. ID: P006 | Erro: Latitude inválida.
+2026-11-09 22:02:23,113 | INFO | Produtor P001 processado com sucesso.
+2026-11-09 22:02:24,054 | INFO | Produtor P002 processado com sucesso.
+2026-11-09 22:02:24,995 | INFO | Produtor P003 processado com sucesso.
+2026-11-09 22:02:25,934 | INFO | Produtor P004 processado com sucesso.
+2026-11-09 22:02:26,811 | INFO | Produtor P005 processado com sucesso.
+2026-11-09 22:02:26,814 | INFO | Arquivo JSON salvo com sucesso.
+2026-11-09 22:02:26,814 | INFO | Execução finalizada. Processados: 5 | Inválidos: 1 | Falhas: 0
+2026-11-09 22:03:39,433 | INFO | === INÍCIO DA EXECUÇÃO DO AGROFÁCIL ===
+2026-11-09 22:03:39,433 | INFO | Cadastro processado: 5 válidos e 1 inválidos.
+2026-11-09 22:03:39,433 | INFO | Cadastros carregados: 5 válidos e 1 inválidos.
+2026-11-09 22:03:39,433 | WARNING | Cadastro inválido. ID: P006 | Erro: Latitude inválida.
+2026-11-09 22:03:40,481 | INFO | Produtor P001 processado com sucesso.
+2026-11-09 22:03:41,387 | INFO | Produtor P002 processado com sucesso.
+2026-11-09 22:03:42,324 | INFO | Produtor P003 processado com sucesso.
+2026-11-09 22:03:43,259 | INFO | Produtor P004 processado com sucesso.
+2026-11-09 22:03:44,161 | INFO | Produtor P005 processado com sucesso.
+2026-11-09 22:03:44,166 | INFO | Arquivo JSON salvo com sucesso.
+2026-11-09 22:03:44,166 | INFO | Execução finalizada. Processados: 5 | Inválidos: 1 | Falhas: 0
+2026-11-09 22:05:42,820 | INFO | === INÍCIO DA EXECUÇÃO DO AGROFÁCIL ===
+2026-11-09 22:05:42,821 | INFO | Cadastro processado: 5 válidos e 1 inválidos.
+2026-11-09 22:05:42,821 | INFO | Cadastros carregados: 5 válidos e 1 inválidos.
+2026-11-09 22:05:42,821 | WARNING | Cadastro inválido. ID: P006 | Erro: Latitude inválida.
+2026-11-09 22:05:43,815 | INFO | Produtor P001 processado com sucesso.
+2026-11-09 22:05:44,810 | INFO | Produtor P002 processado com sucesso.
+2026-11-09 22:05:45,731 | INFO | Produtor P003 processado com sucesso.
+2026-11-09 22:05:46,611 | INFO | Produtor P004 processado com sucesso.
+2026-11-09 22:05:47,540 | INFO | Produtor P005 processado com sucesso.
+2026-11-09 22:05:47,543 | INFO | Arquivo JSON salvo com sucesso.
+2026-11-09 22:05:47,543 | INFO | Execução finalizada. Processados: 5 | Inválidos: 1 | Falhas: 0
+2026-11-09 22:11:58,617 | INFO | === PAINEL: início da leitura do JSON da automação ===
+2026-11-09 22:11:58,619 | INFO | Painel gerado com 5 produtores a partir do JSON.
+2026-11-09 22:45:43,258 | INFO | === INÍCIO DA EXECUÇÃO DO AGROFÁCIL ===
+2026-11-09 22:45:43,258 | INFO | Cadastro processado: 5 válidos e 1 inválidos.
+2026-11-09 22:45:43,259 | INFO | Cadastros carregados: 5 válidos e 1 inválidos.
+2026-11-09 22:45:43,259 | WARNING | Cadastro inválido. ID: P006 | Erro: Latitude inválida.
+2026-11-09 22:45:44,316 | INFO | Produtor P001 processado com sucesso.
+2026-11-09 22:45:45,235 | INFO | Produtor P002 processado com sucesso.
+2026-11-09 22:45:46,093 | INFO | Produtor P003 processado com sucesso.
+2026-11-09 22:45:46,955 | INFO | Produtor P004 processado com sucesso.
+2026-11-09 22:45:47,851 | INFO | Produtor P005 processado com sucesso.
+2026-11-09 22:45:47,854 | INFO | Arquivo JSON salvo com sucesso.
+2026-11-09 22:45:47,855 | INFO | Execução finalizada. Processados: 5 | Inválidos: 1 | Falhas: 0
