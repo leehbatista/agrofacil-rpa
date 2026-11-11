@@ -178,9 +178,7 @@ O projeto utiliza dados fictícios de produtores para fins acadêmicos e de demo
 
 ## Demonstração
 
-<<<<<<< HEAD
-Vídeo: https://youtu.be/Zpi-7k2LBhU?si=tvBxFnr0IyQq80q_
-=======
+
 Vídeo: https://youtu.be/Zpi-7k2LBhU?si=c25kO4Xyzd3bhXse
 >>>>>>> ab06f5d (Projeto Final)
 
