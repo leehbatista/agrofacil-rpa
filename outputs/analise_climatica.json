@@ -1,5 +1,5 @@
 {
-    "data_execucao": "2026-11-09T22:45:47-03:00",
+    "data_execucao": "2026-11-15T16:30:42-03:00",
     "total_produtores": 6,
     "total_validos": 5,
     "total_processados": 5,
@@ -18,106 +18,26 @@
             "nome": "Joao Silva",
             "cultura": "tomate",
             "clima": {
-                "temperatura_atual": 13.2,
-                "precipitacao_atual": 0.0,
+                "temperatura_atual": 22.1,
+                "precipitacao_atual": 0.2,
                 "previsao": [
                     {
-                        "data": "2026-11-09",
-                        "temperatura_minima": 13.0,
-                        "temperatura_maxima": 17.2,
-                        "precipitacao": 0.6
-                    },
-                    {
-                        "data": "2026-11-10",
-                        "temperatura_minima": 13.1,
-                        "temperatura_maxima": 22.2,
-                        "precipitacao": 0.1
-                    },
-                    {
-                        "data": "2026-11-11",
-                        "temperatura_minima": 14.7,
-                        "temperatura_maxima": 25.6,
-                        "precipitacao": 1.1
-                    }
-                ]
-            },
-            "analise": {
-                "alertas": [
-                    "Baixa previsão de chuva"
-                ],
-                "recomendacoes": [
-                    "Avaliar a necessidade de irrigação da plantação."
-                ],
-                "chuva_acumulada_3_dias": 1.8,
-                "temperatura_minima_prevista": 13.0,
-                "temperatura_maxima_prevista": 25.6
-            }
-        },
-        {
-            "id": "P002",
-            "nome": "Maria Souza",
-            "cultura": "milho",
-            "clima": {
-                "temperatura_atual": 19.4,
-                "precipitacao_atual": 0.0,
-                "previsao": [
-                    {
-                        "data": "2026-11-09",
-                        "temperatura_minima": 18.6,
-                        "temperatura_maxima": 22.1,
-                        "precipitacao": 5.6
-                    },
-                    {
-                        "data": "2026-11-10",
-                        "temperatura_minima": 19.3,
-                        "temperatura_maxima": 23.3,
-                        "precipitacao": 0.0
-                    },
-                    {
-                        "data": "2026-11-11",
-                        "temperatura_minima": 19.8,
-                        "temperatura_maxima": 25.7,
-                        "precipitacao": 0.0
-                    }
-                ]
-            },
-            "analise": {
-                "alertas": [
-                    "Nenhum risco identificado"
-                ],
-                "recomendacoes": [
-                    "Manter o monitoramento das condições climáticas."
-                ],
-                "chuva_acumulada_3_dias": 5.6,
-                "temperatura_minima_prevista": 18.6,
-                "temperatura_maxima_prevista": 25.7
-            }
-        },
-        {
-            "id": "P003",
-            "nome": "Carlos Lima",
-            "cultura": "soja",
-            "clima": {
-                "temperatura_atual": 20.0,
-                "precipitacao_atual": 0.0,
-                "previsao": [
-                    {
-                        "data": "2026-11-09",
-                        "temperatura_minima": 19.6,
-                        "temperatura_maxima": 24.6,
-                        "precipitacao": 21.7
-                    },
-                    {
-                        "data": "2026-11-10",
-                        "temperatura_minima": 19.3,
-                        "temperatura_maxima": 27.1,
+                        "data": "2026-11-15",
+                        "temperatura_minima": 17.5,
+                        "temperatura_maxima": 29.2,
                         "precipitacao": 15.9
                     },
                     {
-                        "data": "2026-11-11",
-                        "temperatura_minima": 18.2,
-                        "temperatura_maxima": 25.1,
-                        "precipitacao": 12.2
+                        "data": "2026-11-16",
+                        "temperatura_minima": 17.7,
+                        "temperatura_maxima": 24.3,
+                        "precipitacao": 27.9
+                    },
+                    {
+                        "data": "2026-11-17",
+                        "temperatura_minima": 18.3,
+                        "temperatura_maxima": 27.4,
+                        "precipitacao": 0.9
                     }
                 ]
             },
@@ -128,36 +48,36 @@
                 "recomendacoes": [
                     "Monitorar a plantação e verificar as condições de drenagem."
                 ],
-                "chuva_acumulada_3_dias": 49.8,
-                "temperatura_minima_prevista": 18.2,
-                "temperatura_maxima_prevista": 27.1
+                "chuva_acumulada_3_dias": 44.7,
+                "temperatura_minima_prevista": 17.5,
+                "temperatura_maxima_prevista": 29.2
             }
         },
         {
-            "id": "P004",
-            "nome": "Ana Costa",
-            "cultura": "cafe",
+            "id": "P002",
+            "nome": "Maria Souza",
+            "cultura": "milho",
             "clima": {
-                "temperatura_atual": 16.0,
+                "temperatura_atual": 25.0,
                 "precipitacao_atual": 0.0,
                 "previsao": [
                     {
-                        "data": "2026-11-09",
-                        "temperatura_minima": 15.3,
-                        "temperatura_maxima": 20.5,
-                        "precipitacao": 12.1
+                        "data": "2026-11-15",
+                        "temperatura_minima": 21.9,
+                        "temperatura_maxima": 26.1,
+                        "precipitacao": 1.7
                     },
                     {
-                        "data": "2026-11-10",
-                        "temperatura_minima": 15.1,
-                        "temperatura_maxima": 18.1,
-                        "precipitacao": 9.4
+                        "data": "2026-11-16",
+                        "temperatura_minima": 22.4,
+                        "temperatura_maxima": 25.8,
+                        "precipitacao": 10.5
                     },
                     {
-                        "data": "2026-11-11",
-                        "temperatura_minima": 15.2,
-                        "temperatura_maxima": 22.5,
-                        "precipitacao": 0.3
+                        "data": "2026-11-17",
+                        "temperatura_minima": 22.1,
+                        "temperatura_maxima": 26.0,
+                        "precipitacao": 3.6
                     }
                 ]
             },
@@ -168,9 +88,89 @@
                 "recomendacoes": [
                     "Manter o monitoramento das condições climáticas."
                 ],
-                "chuva_acumulada_3_dias": 21.8,
-                "temperatura_minima_prevista": 15.1,
-                "temperatura_maxima_prevista": 22.5
+                "chuva_acumulada_3_dias": 15.8,
+                "temperatura_minima_prevista": 21.9,
+                "temperatura_maxima_prevista": 26.1
+            }
+        },
+        {
+            "id": "P003",
+            "nome": "Carlos Lima",
+            "cultura": "soja",
+            "clima": {
+                "temperatura_atual": 24.4,
+                "precipitacao_atual": 0.1,
+                "previsao": [
+                    {
+                        "data": "2026-11-15",
+                        "temperatura_minima": 19.4,
+                        "temperatura_maxima": 26.9,
+                        "precipitacao": 5.6
+                    },
+                    {
+                        "data": "2026-11-16",
+                        "temperatura_minima": 19.1,
+                        "temperatura_maxima": 24.7,
+                        "precipitacao": 7.2
+                    },
+                    {
+                        "data": "2026-11-17",
+                        "temperatura_minima": 18.6,
+                        "temperatura_maxima": 24.9,
+                        "precipitacao": 10.8
+                    }
+                ]
+            },
+            "analise": {
+                "alertas": [
+                    "Nenhum risco identificado"
+                ],
+                "recomendacoes": [
+                    "Manter o monitoramento das condições climáticas."
+                ],
+                "chuva_acumulada_3_dias": 23.6,
+                "temperatura_minima_prevista": 18.6,
+                "temperatura_maxima_prevista": 26.9
+            }
+        },
+        {
+            "id": "P004",
+            "nome": "Ana Costa",
+            "cultura": "cafe",
+            "clima": {
+                "temperatura_atual": 26.2,
+                "precipitacao_atual": 0.0,
+                "previsao": [
+                    {
+                        "data": "2026-11-15",
+                        "temperatura_minima": 18.1,
+                        "temperatura_maxima": 28.3,
+                        "precipitacao": 8.9
+                    },
+                    {
+                        "data": "2026-11-16",
+                        "temperatura_minima": 18.0,
+                        "temperatura_maxima": 23.1,
+                        "precipitacao": 30.8
+                    },
+                    {
+                        "data": "2026-11-17",
+                        "temperatura_minima": 17.6,
+                        "temperatura_maxima": 25.5,
+                        "precipitacao": 12.7
+                    }
+                ]
+            },
+            "analise": {
+                "alertas": [
+                    "Previsão de chuva forte"
+                ],
+                "recomendacoes": [
+                    "Monitorar a plantação e verificar as condições de drenagem."
+                ],
+                "chuva_acumulada_3_dias": 52.4,
+                "temperatura_minima_prevista": 17.6,
+                "temperatura_maxima_prevista": 28.3
             }
         },
         {
@@ -178,39 +178,39 @@
             "nome": "Pedro Santos",
             "cultura": "alface",
             "clima": {
-                "temperatura_atual": 10.9,
-                "precipitacao_atual": 0.0,
+                "temperatura_atual": 19.6,
+                "precipitacao_atual": 0.2,
                 "previsao": [
                     {
-                        "data": "2026-11-09",
-                        "temperatura_minima": 9.7,
-                        "temperatura_maxima": 17.2,
-                        "precipitacao": 1.3
+                        "data": "2026-11-15",
+                        "temperatura_minima": 16.8,
+                        "temperatura_maxima": 25.8,
+                        "precipitacao": 13.6
                     },
                     {
-                        "data": "2026-11-10",
-                        "temperatura_minima": 10.4,
-                        "temperatura_maxima": 18.3,
-                        "precipitacao": 0.9
+                        "data": "2026-11-16",
+                        "temperatura_minima": 16.8,
+                        "temperatura_maxima": 23.6,
+                        "precipitacao": 2.8
                     },
                     {
-                        "data": "2026-11-11",
-                        "temperatura_minima": 13.1,
-                        "temperatura_maxima": 21.4,
-                        "precipitacao": 1.2
+                        "data": "2026-11-17",
+                        "temperatura_minima": 17.0,
+                        "temperatura_maxima": 26.0,
+                        "precipitacao": 1.4
                     }
                 ]
             },
             "analise": {
                 "alertas": [
-                    "Baixa previsão de chuva"
+                    "Nenhum risco identificado"
                 ],
                 "recomendacoes": [
-                    "Avaliar a necessidade de irrigação da plantação."
+                    "Manter o monitoramento das condições climáticas."
                 ],
-                "chuva_acumulada_3_dias": 3.4,
-                "temperatura_minima_prevista": 9.7,
-                "temperatura_maxima_prevista": 21.4
+                "chuva_acumulada_3_dias": 17.8,
+                "temperatura_minima_prevista": 16.8,
+                "temperatura_maxima_prevista": 26.0
             }
         }
     ]
